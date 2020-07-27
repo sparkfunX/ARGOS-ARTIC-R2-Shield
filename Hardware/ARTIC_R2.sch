@@ -661,7 +661,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="NC@11" x="10.16" y="-15.24" length="short" direction="nc" rot="R90"/>
 <pin name="RF_OUT/VCC2@10" x="17.78" y="2.54" length="short" direction="out" rot="R180"/>
 <pin name="RF_OUT/VCC2@9" x="17.78" y="-2.54" length="short" direction="out" rot="R180"/>
-<pin name="VBIAS" x="5.08" y="15.24" length="short" direction="out" rot="R270"/>
+<pin name="VBIAS" x="5.08" y="15.24" length="short" direction="pwr" rot="R270"/>
 <pin name="NC@15" x="12.7" y="-15.24" length="short" direction="nc" rot="R90"/>
 <pin name="VCC1" x="12.7" y="15.24" length="short" direction="pwr" rot="R270"/>
 <pin name="G16" x="-2.54" y="15.24" length="short" direction="in" rot="R270"/>
@@ -3511,7 +3511,10 @@ Used in manufacturing several products at SparkFun.
 <connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER_PART" value="449-LFTCXO073004CUTT" constant="no"/>
+<attribute name="PROD_ID" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3569,6 +3572,7 @@ Used in manufacturing several products at SparkFun.
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MOUSER_PART" value="755-SFR01MZPF2200" constant="no"/>
 <attribute name="PROD_ID" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3589,6 +3593,7 @@ Used in manufacturing several products at SparkFun.
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MOUSER_PART" value="603-RC0402FR-073R9L" constant="no"/>
 <attribute name="PROD_ID" value="" constant="no"/>
 </technology>
 </technologies>
@@ -5730,7 +5735,7 @@ Iq: 65uA</text>
 <text x="289.56" y="213.36" size="5.08" layer="97">Antenna Switch</text>
 <text x="391.16" y="213.36" size="5.08" layer="97">Antenna</text>
 <text x="167.64" y="30.48" size="5.08" layer="97">ARTIC R2</text>
-<text x="322.58" y="73.66" size="5.08" layer="97">RF Amp</text>
+<text x="327.66" y="81.28" size="5.08" layer="97">RF Amp</text>
 <text x="43.18" y="12.7" size="5.08" layer="97">Pins</text>
 <text x="256.032" y="89.662" size="1.27" layer="97">50Ω</text>
 <text x="285.75" y="76.962" size="1.27" layer="97">50Ω</text>
@@ -5746,6 +5751,20 @@ Iq: 65uA</text>
 <text x="396.494" y="246.888" size="1.27" layer="97">50Ω</text>
 <wire x1="127" y1="205.74" x2="127" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="107.442" y="213.614" size="5.08" layer="97">LED</text>
+<text x="330.962" y="69.088" size="1.778" layer="97" font="vector" align="top-left">RF Track Impedance: Coplanar Waveguide with Ground Calculations
+----------------
+TX: 400MHz
+Ground is on layer 2. Prepreg thickness: 0.140mm
+10 mil track with 5 mil gap = 49.8 Ohms
+Er = 4.3
+----------------
+RX: 466MHz
+Ground is on layer 15 (there is a cut-out on layer 2 as per AnSem's design guide).
+Prepreg + layer 2 + core thickness = 1.375mm
+24 mil track with 3 mil gap = 49.9 Ohms
+Er = 4.3
+
+</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -7007,10 +7026,8 @@ Iq: 65uA</text>
 <label x="182.88" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 <label x="63.5" y="53.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="A5"/>
-<wire x1="60.96" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7573,8 +7590,23 @@ Iq: 65uA</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="206,1,345.44,99.06,N$26,,,,,"/>
-<approved hash="206,1,345.44,93.98,N$26,,,,,"/>
+<approved hash="104,1,185.42,101.6,U3,D18VD,N$8,,,"/>
+<approved hash="104,1,185.42,93.98,U3,D33VD,N$9,,,"/>
+<approved hash="104,1,228.6,71.12,U3,A18VD1,N$4,,,"/>
+<approved hash="104,1,220.98,129.54,U3,A18VD3,N$13,,,"/>
+<approved hash="104,1,241.3,114.3,U3,A33VD2,N$11,,,"/>
+<approved hash="104,1,241.3,111.76,U3,A18VD2,N$10,,,"/>
+<approved hash="104,1,241.3,106.68,U3,A18VD2,N$10,,,"/>
+<approved hash="104,1,241.3,93.98,U3,A18VD2,N$10,,,"/>
+<approved hash="104,1,218.44,71.12,U3,A18VD1,N$31,,,"/>
+<approved hash="104,1,226.06,71.12,U3,A33VD1,N$5,,,"/>
+<approved hash="104,1,335.28,121.92,U4,VBIAS,VDD,,,"/>
+<approved hash="104,1,342.9,121.92,U4,VCC1,N$19,,,"/>
+<approved hash="104,1,312.42,246.38,U5,V2,RXSW,,,"/>
+<approved hash="104,1,312.42,241.3,U5,V1,TXSW,,,"/>
+<approved hash="104,1,182.88,243.84,U1,VCC,N$1,,,"/>
+<approved hash="206,1,347.98,109.22,N$26,,,,,"/>
+<approved hash="206,1,347.98,104.14,N$26,,,,,"/>
 </errors>
 </schematic>
 </drawing>
