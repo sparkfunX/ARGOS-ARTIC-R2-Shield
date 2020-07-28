@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -171,10 +171,10 @@
 <wire x1="-0.5461" y1="0.3048" x2="0.5461" y2="0.3048" width="0.002540625" layer="51"/>
 <wire x1="0.5461" y1="0.3048" x2="0.5461" y2="-0.3048" width="0.002540625" layer="51"/>
 <wire x1="0.5461" y1="-0.3048" x2="-0.5461" y2="-0.3048" width="0.002540625" layer="51"/>
-<rectangle x1="-0.5461" y1="-0.3048" x2="-0.3429" y2="0.3048" layer="51"/>
+<rectangle x1="-0.508" y1="-0.254" x2="-0.3048" y2="0.254" layer="51"/>
 <smd name="P$1" x="-0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
 <smd name="P$2" x="0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
-<rectangle x1="0.3429" y1="-0.3048" x2="0.5461" y2="0.3048" layer="51"/>
+<rectangle x1="0.3048" y1="-0.254" x2="0.508" y2="0.254" layer="51"/>
 </package>
 </packages>
 <symbols>
