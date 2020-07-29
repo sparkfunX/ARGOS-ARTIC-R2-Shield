@@ -7,7 +7,7 @@ A Thing Plus breakout to let us try the [ARGOS ARTIC R2 satellite communication 
 ![Dimensions.JPG](img/Dimensions.png)
 
 Inspired by a request from Argentinian ornithologist Joaquín Cereghetti, this breakout should allow the user to send and receive messages anywhere but in a smaller package
-and with lower power requirements than Iridium 9603N modem.
+and with lower power requirements than the Iridium 9603N modem.
 
 The ARGOS satellite system is restricted to specific applications:
 - "To meet system use requirements, all programs using Argos have to be related in some way or other to environmental protection, awareness or study, or to protecting human life."

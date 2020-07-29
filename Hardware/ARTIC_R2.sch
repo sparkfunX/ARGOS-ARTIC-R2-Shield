@@ -3613,6 +3613,7 @@ Used in manufacturing several products at SparkFun.
 <smd name="P$1" x="-0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
 <smd name="P$2" x="0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
 <rectangle x1="0.3048" y1="-0.254" x2="0.508" y2="0.254" layer="51"/>
+<wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.254" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -5911,18 +5912,20 @@ Iq: 65uA</text>
 <text x="396.494" y="246.888" size="1.27" layer="97">50Ω</text>
 <wire x1="127" y1="205.74" x2="127" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="107.442" y="213.614" size="5.08" layer="97">LED</text>
-<text x="330.962" y="69.088" size="1.778" layer="97" font="vector" align="top-left">RF Track Impedance: Coplanar Waveguide with Ground Calculations
+<text x="330.962" y="74.168" size="1.778" layer="97" font="vector" align="top-left">RF Track Impedance: Coplanar Waveguide with Ground Calculations
+https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm
+----------------
+JLCPCB JLC7628 4-Layer 0.8mm Impedance Control Stackup (Er = 4.6)
 ----------------
 TX: 400MHz
-Ground is on layer 2. Prepreg thickness: 0.140mm
-10 mil track with 5 mil gap = 49.8 Ohms
-Er = 4.3
+Ground is on layer 2.
+Prepreg thickness: 0.2mm
+12 mil track with 4 mil gap = 49.5 Ohms
 ----------------
 RX: 466MHz
 Ground is on layer 15 (there is a cut-out on layer 2 as per AnSem's design guide).
-Prepreg + layer 2 + core thickness = 1.375mm
-24 mil track with 3 mil gap = 49.9 Ohms
-Er = 4.3
+Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
+20 mil track with 4 mil gap = 49.9 Ohms
 
 </text>
 <wire x1="99.06" y1="152.4" x2="0" y2="152.4" width="0.2032" layer="97" style="longdash"/>
