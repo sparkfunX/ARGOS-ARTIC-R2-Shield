@@ -546,7 +546,7 @@ Source: &lt;a href="http://www.qorvo.com/products/d/da000936"&gt; Datasheet &lt;
 <attribute name="MANUFACTURER_NAME" value="Qorvo" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RFPA0133TR7" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="772-RFPA0133" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-15274" constant="no"/>
 </technology>
 </technologies>
 </device>

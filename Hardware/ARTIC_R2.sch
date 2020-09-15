@@ -778,7 +778,7 @@ Source: &lt;a href="http://www.qorvo.com/products/d/da000936"&gt; Datasheet &lt;
 <attribute name="MANUFACTURER_NAME" value="Qorvo" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RFPA0133TR7" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="772-RFPA0133" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-15274" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3356,7 +3356,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="449-LFTCXO073004CUTT" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="XTAL-15279" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3416,7 +3416,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="755-SFR01MZPF2200" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15269" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3437,7 +3437,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="603-RC0402FR-073R9L" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15270" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3487,7 +3487,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="994-0402HP-18NXGLU" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-15277" constant="no"/>
 <attribute name="VALUE" value="18nH" constant="no"/>
 </technology>
 </technologies>
@@ -3507,7 +3507,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="994-0402HP-15NXGLU" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-15272" constant="no"/>
 <attribute name="VALUE" value="15nH" constant="no"/>
 </technology>
 </technologies>
@@ -3527,7 +3527,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="994-0402HP-27NXGLU" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-15273" constant="no"/>
 <attribute name="VALUE" value="27nH" constant="no"/>
 </technology>
 </technologies>
@@ -3547,7 +3547,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="994-0402HP-12NXGLU" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-15271" constant="no"/>
 <attribute name="VALUE" value="12nH" constant="no"/>
 </technology>
 </technologies>
@@ -3567,7 +3567,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="994-0402HP-30NXGLU" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-15275" constant="no"/>
 <attribute name="VALUE" value="30nH" constant="no"/>
 </technology>
 </technologies>
@@ -3587,7 +3587,7 @@ Used in manufacturing several products at SparkFun.
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="994-0402HP-51NXGLU" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-15276" constant="no"/>
 <attribute name="VALUE" value="51nH" constant="no"/>
 </technology>
 </technologies>
@@ -3980,7 +3980,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="609-500R07S9R1CV4T"/>
-<attribute name="PROD_ID" value=""/>
+<attribute name="PROD_ID" value="CAP-15278"/>
 <attribute name="VALUE" value="9.1pF"/>
 </technology>
 </technologies>

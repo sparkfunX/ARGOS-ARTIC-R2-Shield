@@ -211,7 +211,7 @@
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="609-500R07S9R1CV4T"/>
-<attribute name="PROD_ID" value=""/>
+<attribute name="PROD_ID" value="CAP-15278"/>
 <attribute name="VALUE" value="9.1pF"/>
 </technology>
 </technologies>

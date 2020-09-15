@@ -223,7 +223,7 @@
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="449-LFTCXO073004CUTT" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="XTAL-15279" constant="no"/>
 </technology>
 </technologies>
 </device>

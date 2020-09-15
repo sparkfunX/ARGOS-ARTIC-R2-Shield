@@ -216,7 +216,7 @@
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="755-SFR01MZPF2200" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15269" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -237,7 +237,7 @@
 <technologies>
 <technology name="">
 <attribute name="MOUSER_PART" value="603-RC0402FR-073R9L" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15270" constant="no"/>
 </technology>
 </technologies>
 </device>
