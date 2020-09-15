@@ -2898,163 +2898,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-IC-Memory">
-<description>&lt;h3&gt;SparkFun Memory ICs&lt;/h3&gt;
-This library contains memory ICs.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SO08">
-<description>SOIC, 0.15 inch width</description>
-<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
-<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
-<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
-<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
-<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
-<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
-<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
-<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
-<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
-<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
-<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
-<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
-<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
-<polygon width="0.002540625" layer="21">
-<vertex x="-2.69875" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.06375" curve="90"/>
-<vertex x="-3.33375" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.69875" curve="90"/>
-</polygon>
-</package>
-<package name="SO08-EIAJ">
-<description>Fits EIAJ packages (wide version of the SOIC-8).</description>
-<wire x1="-2.362" y1="-2.565" x2="2.362" y2="-2.565" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-2.565" x2="2.362" y2="2.5396" width="0.2032" layer="21"/>
-<wire x1="2.362" y1="2.5396" x2="-2.362" y2="2.5396" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="2.5396" x2="-2.362" y2="-2.565" width="0.2032" layer="21"/>
-<smd name="1" x="-1.905" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="3" x="0.635" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
-<rectangle x1="-2.0828" y1="-3.6322" x2="-1.7272" y2="-2.6162" layer="51"/>
-<rectangle x1="-0.8128" y1="-3.6322" x2="-0.4572" y2="-2.6162" layer="51"/>
-<rectangle x1="0.4572" y1="-3.6322" x2="0.8128" y2="-2.6162" layer="51"/>
-<rectangle x1="1.7272" y1="-3.6322" x2="2.0828" y2="-2.6162" layer="51"/>
-<rectangle x1="-2.0828" y1="2.5908" x2="-1.7272" y2="3.6068" layer="51"/>
-<rectangle x1="-0.8128" y1="2.5908" x2="-0.4572" y2="3.6068" layer="51"/>
-<rectangle x1="0.4572" y1="2.5908" x2="0.8128" y2="3.6068" layer="51"/>
-<rectangle x1="1.7272" y1="2.5908" x2="2.0828" y2="3.6068" layer="51"/>
-<text x="-2.8575" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="3.4925" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.002540625" layer="21">
-<vertex x="-2.69875" y="-3.01625" curve="90"/>
-<vertex x="-3.01625" y="-2.69875" curve="90"/>
-<vertex x="-3.33375" y="-3.01625" curve="90"/>
-<vertex x="-3.01625" y="-3.33375" curve="90"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="SPI_FLASH">
-<description>&lt;h3&gt; Flash &lt;/h3&gt;</description>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="CS" x="-15.24" y="2.54" length="middle"/>
-<pin name="MISO" x="-15.24" y="0" length="middle"/>
-<pin name="WP" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
-<pin name="VCC" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="HOLD" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="SCK" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="MOSI" x="15.24" y="-5.08" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SPI_FLASH-X25XX" prefix="U">
-<description>&lt;h3&gt;32M Serial Flash Memory&lt;/h3&gt;
-&lt;p&gt;8pin SPI Flash series x25xx. Works with devices like W25X32 and BR25L32&lt;/p&gt;
-&lt;li&gt;&lt;a href="http://www.macronix.com/Lists/Datasheet/Attachments/5031/MX25L3206E,%203V,%2032Mb,%20v1.5.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10920"&gt;SparkFun Venus GPS Logger&lt;/a&gt; (GPS-10920)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SPI_FLASH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="SO08">
-<connects>
-<connect gate="G$1" pin="CS" pad="1"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="HOLD" pad="7"/>
-<connect gate="G$1" pin="MISO" pad="2"/>
-<connect gate="G$1" pin="MOSI" pad="5"/>
-<connect gate="G$1" pin="SCK" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="WP" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="N/A" constant="no"/>
-<attribute name="VALUE" value="32M SPI Flash" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SMD1" package="SO08-EIAJ">
-<connects>
-<connect gate="G$1" pin="CS" pad="1"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="HOLD" pad="7"/>
-<connect gate="G$1" pin="MISO" pad="2"/>
-<connect gate="G$1" pin="MOSI" pad="5"/>
-<connect gate="G$1" pin="SCK" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="WP" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-09109"/>
-<attribute name="VALUE" value="25F32006WSOI" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Coils">
 <description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
 In this library you'll find magnetics.
@@ -5682,6 +5525,101 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="New_Parts_IC-Memory">
+<packages>
+<package name="SO08">
+<description>SOIC, 0.15 inch width</description>
+<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
+<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
+<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
+<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
+<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
+<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
+<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
+<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
+<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
+<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
+<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.06375" curve="90"/>
+<vertex x="-3.33375" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="SPI_FLASH">
+<description>&lt;h3&gt; Flash &lt;/h3&gt;</description>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="CE" x="-12.7" y="2.54" length="short"/>
+<pin name="SO" x="-12.7" y="0" length="short"/>
+<pin name="WP" x="-12.7" y="-2.54" length="short"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="HOLD" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SCK" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="SI" x="12.7" y="-5.08" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SST25VF020B" prefix="U">
+<description>&lt;h3&gt;2Mbit Serial Flash Memory&lt;/h3&gt;
+&lt;p&gt;8pin SPI Flash&lt;/p&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005054D.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPI_FLASH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SO08">
+<connects>
+<connect gate="G$1" pin="CE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HOLD" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART" value=" SST25VF020B-80-4I-SAE-TCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip" constant="no"/>
+<attribute name="MANU_PART" value="SST25VF020B-80-4I-SAE-T" constant="no"/>
+<attribute name="MOUSER_PART" value="579-25VF020B8ISAET" constant="no"/>
+<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="VALUE" value="2Mbit SPI Flash" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5720,7 +5658,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="U1" library="SparkFun-IC-Memory" deviceset="SPI_FLASH-X25XX" device="SMD" value="32M SPI Flash"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -5869,6 +5806,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="JP6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="JP7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="U1" library="New_Parts_IC-Memory" deviceset="SST25VF020B" device="SMD" value="2Mbit SPI Flash"/>
 </parts>
 <sheets>
 <sheet>
@@ -6024,10 +5962,6 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <instance part="SUPPLY3" gate="VDD" x="66.04" y="248.92" smashed="yes">
 <attribute name="VALUE" x="66.04" y="251.714" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="167.64" y="241.3" smashed="yes">
-<attribute name="NAME" x="157.48" y="246.634" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="157.48" y="233.426" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
 <instance part="C1" gate="G$1" x="22.86" y="241.3" smashed="yes">
 <attribute name="NAME" x="24.384" y="244.221" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="24.384" y="239.141" size="1.778" layer="96" font="vector"/>
@@ -6059,12 +5993,12 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <attribute name="NAME" x="212.344" y="246.761" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="212.344" y="241.681" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND3" gate="1" x="149.86" y="231.14" smashed="yes">
-<attribute name="VALUE" x="149.86" y="230.886" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND3" gate="1" x="152.4" y="231.14" smashed="yes">
+<attribute name="VALUE" x="152.4" y="230.886" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="193.04" y="246.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="191.516" y="246.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="194.564" y="246.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R2" gate="G$1" x="190.5" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="188.976" y="246.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="192.024" y="246.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="R11" gate="G$1" x="167.64" y="254" smashed="yes">
 <attribute name="NAME" x="167.64" y="255.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -6533,6 +6467,10 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <instance part="JP7" gate="G$1" x="53.34" y="172.72" smashed="yes">
 <attribute name="NAME" x="50.8" y="175.26" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="U1" gate="G$1" x="167.64" y="241.3" smashed="yes">
+<attribute name="NAME" x="157.48" y="246.634" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="157.48" y="233.426" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6577,10 +6515,10 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <wire x1="63.5" y1="30.48" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="152.4" y1="236.22" x2="149.86" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="149.86" y1="236.22" x2="149.86" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="236.22" x2="152.4" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="154.94" y1="236.22" x2="152.4" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -7100,9 +7038,9 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <label x="182.88" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<label x="182.88" y="238.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="SCK"/>
-<wire x1="182.88" y1="238.76" x2="185.42" y2="238.76" width="0.1524" layer="91"/>
-<label x="185.42" y="238.76" size="1.27" layer="95" xref="yes"/>
+<wire x1="180.34" y1="238.76" x2="182.88" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FLSH_SI" class="0">
@@ -7113,9 +7051,9 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <label x="198.12" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="MOSI"/>
-<wire x1="182.88" y1="236.22" x2="185.42" y2="236.22" width="0.1524" layer="91"/>
-<label x="185.42" y="236.22" size="1.27" layer="95" xref="yes"/>
+<label x="182.88" y="236.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="SI"/>
+<wire x1="180.34" y1="236.22" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FLSH_SO" class="0">
@@ -7126,9 +7064,9 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <label x="198.12" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="MISO"/>
-<wire x1="152.4" y1="241.3" x2="147.32" y2="241.3" width="0.1524" layer="91"/>
-<label x="147.32" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="149.86" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="SO"/>
+<wire x1="154.94" y1="241.3" x2="149.86" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FLSH_CEN" class="0">
@@ -7139,9 +7077,9 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <label x="198.12" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="CS"/>
-<wire x1="152.4" y1="243.84" x2="147.32" y2="243.84" width="0.1524" layer="91"/>
-<label x="147.32" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="149.86" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="CE"/>
+<wire x1="154.94" y1="243.84" x2="149.86" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -7257,38 +7195,38 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <wire x1="200.66" y1="248.92" x2="200.66" y2="254" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="254" x2="210.82" y2="254" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="210.82" y1="254" x2="213.36" y2="254" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="243.84" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="243.84" x2="185.42" y2="254" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="254" x2="193.04" y2="254" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="254" x2="190.5" y2="254" width="0.1524" layer="91"/>
 <junction x="200.66" y="254"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="254" x2="200.66" y2="254" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="251.46" x2="193.04" y2="254" width="0.1524" layer="91"/>
-<junction x="193.04" y="254"/>
+<wire x1="190.5" y1="254" x2="200.66" y2="254" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="251.46" x2="190.5" y2="254" width="0.1524" layer="91"/>
+<junction x="190.5" y="254"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="254" x2="185.42" y2="254" width="0.1524" layer="91"/>
-<junction x="185.42" y="254"/>
+<wire x1="172.72" y1="254" x2="182.88" y2="254" width="0.1524" layer="91"/>
+<junction x="182.88" y="254"/>
 <pinref part="C45" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="248.92" x2="210.82" y2="254" width="0.1524" layer="91"/>
 <junction x="210.82" y="254"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="180.34" y1="243.84" x2="182.88" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="243.84" x2="182.88" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="HOLD"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="241.3" x2="193.04" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="HOLD"/>
+<wire x1="180.34" y1="241.3" x2="190.5" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="WP"/>
-<wire x1="152.4" y1="238.76" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="238.76" x2="149.86" y2="254" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="238.76" x2="152.4" y2="254" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="254" x2="162.56" y2="254" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="254" x2="162.56" y2="254" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="WP"/>
+<wire x1="154.94" y1="238.76" x2="152.4" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7804,7 +7742,7 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 <approved hash="104,1,342.9,121.92,U4,VCC1,N$19,,,"/>
 <approved hash="104,1,312.42,246.38,U5,V2,RXSW,,,"/>
 <approved hash="104,1,312.42,241.3,U5,V1,TXSW,,,"/>
-<approved hash="104,1,182.88,243.84,U1,VCC,N$1,,,"/>
+<approved hash="104,1,180.34,243.84,U1,VCC,N$1,,,"/>
 <approved hash="206,1,347.98,109.22,N$26,,,,,"/>
 <approved hash="206,1,347.98,104.14,N$26,,,,,"/>
 </errors>
