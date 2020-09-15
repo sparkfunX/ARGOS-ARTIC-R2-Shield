@@ -741,7 +741,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-15312" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5611,7 +5611,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MANUFACTURER" value="Microchip" constant="no"/>
 <attribute name="MANU_PART" value="SST25VF020B-80-4I-SAE-T" constant="no"/>
 <attribute name="MOUSER_PART" value="579-25VF020B8ISAET" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-15319" constant="no"/>
 <attribute name="VALUE" value="2Mbit SPI Flash" constant="no"/>
 </technology>
 </technologies>

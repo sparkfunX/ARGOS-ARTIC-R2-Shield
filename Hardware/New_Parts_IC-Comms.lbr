@@ -509,7 +509,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-15312" constant="no"/>
 </technology>
 </technologies>
 </device>
