@@ -62,6 +62,10 @@ Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout w
 
 The LEDs can be disabled to save power by cutting the jumper links on the bottom of the PCB.
 
+## Antenna
+
+The antenna is connected via a uFL connector. A 400MHz quarter wave wire antenna is all that is required for most applications.
+
 ## Repository Contents
 
 - **/Documentation** - Datasheets etc.
