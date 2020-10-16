@@ -192,10 +192,10 @@
 1oz Copper (Outer layers)
 ENIG Finish
 </text>
-<dimension x1="0" y1="2.54" x2="22.86" y2="2.54" x3="11.43" y3="-10.16" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="2.54" y1="2.54" x2="20.32" y2="2.54" x3="11.43" y3="-5.08" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="2.54" y1="50.8" x2="2.54" y2="0" x3="-10.160003125" y3="25.4" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="2.54" y1="48.26" x2="2.54" y2="2.54" x3="-5.080003125" y3="25.4" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="0" y1="2.54" x2="22.86" y2="2.54" x3="11.43" y3="-7.62" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="20.32" y2="2.54" x3="11.43" y3="-3.81" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="2.54" y1="50.8" x2="2.54" y2="0" x3="-6.350003125" y3="25.4" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="2.54" y1="48.26" x2="2.54" y2="2.54" x3="-2.540003125" y3="25.4" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 <text x="5.3975" y="50.165" size="1.27" layer="16" ratio="15" rot="MR180">X02</text>
 <text x="5.08" y="1.27" size="1.016" layer="1" ratio="15">TOP</text>
 <text x="8.89" y="1.27" size="1.016" layer="2" ratio="15">2</text>
@@ -211,6 +211,7 @@ ENIG Finish
 <wire x1="2.54" y1="50.8" x2="0" y2="48.26" width="0.1016" layer="20" curve="90"/>
 <rectangle x1="13.97" y1="46.101" x2="15.24" y2="47.879" layer="41"/>
 <text x="85.1535" y="-8.382" size="1.778" layer="51" align="top-left">Paul Clark</text>
+<dimension x1="14.605" y1="46.99" x2="0" y2="50.8" x3="7.3025" y3="53.3472375" textsize="1.778" textratio="15" layer="51" dtype="horizontal" unit="inch" precision="3"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
