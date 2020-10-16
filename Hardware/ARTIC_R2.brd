@@ -8168,13 +8168,12 @@ design rules under a new name.</description>
 <element name="K1" library="New_Parts_DiscreteSemi" package="TLP3475RTPF" value="TLP3475R" x="5.334" y="42.545" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Solid State Relays - PCB Mount Photo-IC 3mA 50V 5000Vrms" x="5.334" y="46.355" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="DIGIKEY_PART" value="TLP3475R(TPFCT-ND - Cut Tape (CT)" x="5.334" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="5.334" y="46.355" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Toshiba" x="5.334" y="46.355" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TLP3475R" x="5.334" y="46.355" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="757-TLP3475RTPF" x="5.334" y="46.355" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=757-TLP3475RTPF" x="5.334" y="46.355" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="4.0675" y="42.526" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
-<attribute name="PROD_ID" value="" x="5.334" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="IC-15447" x="5.334" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C47" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="6.6675" y="13.5255" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.1055" y="13.5255" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>

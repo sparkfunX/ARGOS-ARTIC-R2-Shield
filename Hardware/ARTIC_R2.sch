@@ -10103,12 +10103,11 @@ Source: &lt;a href="http://toshiba.semicon-storage.com/info/docget.jsp?did=55304
 <technology name="">
 <attribute name="DESCRIPTION" value="Solid State Relays - PCB Mount Photo-IC 3mA 50V 5000Vrms" constant="no"/>
 <attribute name="DIGIKEY_PART" value="TLP3475R(TPFCT-ND - Cut Tape (CT)" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Toshiba" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TLP3475R" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="757-TLP3475RTPF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=757-TLP3475RTPF" constant="no"/>
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-15447" constant="no"/>
 </technology>
 </technologies>
 </device>
