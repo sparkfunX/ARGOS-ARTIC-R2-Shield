@@ -66,11 +66,36 @@ The LEDs can be disabled to save power by cutting the jumper links on the bottom
 
 The antenna is connected via a uFL connector. A 400MHz quarter wave wire antenna is all that is required for most applications.
 
+## Arduino Library
+
+The [SparkFun ARGOS ARTIC R2 Arduino Library](https://github.com/sparkfun/SparkFun_ARGOS_ARTIC_R2_Arduino_Library) contains a full set of examples
+to get you up and running with the ARTIC R2 Breakout.
+
+## Hook-Up Guide
+
+The ARTIC R2 Breakout is designed to interface directly to a SparkFun Thing Plus board. The
+[examples in the Arduino library](https://github.com/sparkfun/SparkFun_ARGOS_ARTIC_R2_Arduino_Library/tree/master/examples) are written for the
+[Thing Plus - Artemis](https://www.sparkfun.com/products/15574) but can be adapted to any board simply by changing the declared pin numbers.
+
+You can mount the ARTIC R2 Breakout on a Thing Plus board using [Break Away Headers - Straight](https://www.sparkfun.com/products/116) on the ARTIC
+and [Female Headers](https://www.sparkfun.com/products/115) on the Thing Plus. That way you can remove the ARTIC R2 Breakout if you want to and perhaps
+mount the board on a [Breadboard](https://www.sparkfun.com/products/12002) instead.
+
+If you are new to Arduino and the IDE, these guides will get you up and running:
+- [Hookup Guide for the SparkFun Artemis Thing Plus](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-sparkfun-artemis-thing-plus)
+- [Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
+- [https://learn.sparkfun.com/tutorials/installing-an-arduino-library](Installing an Arduino Library)
+
+In the Arduino IDE, please make sure you select the correct board. The examples in the Arduino library assume you will be using the _SparkFun Artemis Thing Plus_
+from the _SparkFun Apollo3_ boards package.
+
+You can install the library using the IDE by opening _**Tools\Manage Libraries**_ and then searching for _SparkFun ARGOS ARTIC R2_.
+
 ## Repository Contents
 
-- **/Documentation** - Datasheets etc.
-- **/Hardware** - Eagle PCB, SCH and LBR design files
-- **LICENSE.md** contains the licence information
+- [**/Documents**](./Documents) - Datasheets etc.
+- [**/Hardware**](./Hardware) - Eagle PCB, SCH and LBR design files
+- [**LICENSE.md**](./LICENSE,md) - contains the licence information
 
 ## Thanks
 
