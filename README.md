@@ -84,7 +84,7 @@ mount the board on a [Breadboard](https://www.sparkfun.com/products/12002) inste
 If you are new to Arduino and the IDE, these guides will get you up and running:
 - [Hookup Guide for the SparkFun Artemis Thing Plus](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-sparkfun-artemis-thing-plus)
 - [Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
-- [https://learn.sparkfun.com/tutorials/installing-an-arduino-library](Installing an Arduino Library)
+- [Installing an Arduino Library](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)
 
 In the Arduino IDE, please make sure you select the correct board. The examples in the Arduino library assume you will be using the _SparkFun Artemis Thing Plus_
 from the _SparkFun Apollo3_ boards package.
