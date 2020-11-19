@@ -2,10 +2,11 @@
 
 The [ARGOS ARTIC R2 satellite communication chipset](https://www.cls-telemetry.com/argos-solutions/argos-products/modems/artic-chipset/#1534863095666-398318f3-c367) in Thing Plus format.
 
-![Top.png](img/Top.JPG)
-![Bottom.png](img/Bottom.JPG)
+[![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-01.jpg)](https://www.sparkfun.com/products/17236)
 
-![Dimensions.JPG](img/Dimensions.png)
+[![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-02.jpg)](https://www.sparkfun.com/products/17236)
+
+![Dimensions](./img/Dimensions.png)
 _Dimensions are in inches_
 
 The ARTIC-R2 is an integrated low power small size ARGOS 2/3/4 single chip radio. ARTIC-R2 implements a message based wireless interface. For satellite uplink communication, ARTIC-R2 will encode, modulate and transmit provided user messages. For downlink communication, ARTIC-R2 will lock to the downstream, demodulate and decode it and extract the satellite messages.
@@ -35,6 +36,8 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - _**"To meet system use requirements, all programs using Argos have to be related in some way or other to environmental protection, awareness or study, or to protecting human life."**_
 
 ## Breakout Pins
+
+![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-03.jpg)
 
 - **VBATT**: Power input from (e.g.) a LiPo battery. Typically 3.6V - 4.2V.
 - **VUSB**: Power input from USB. Typically 5V. 6.5V maximum.
