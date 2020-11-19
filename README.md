@@ -43,7 +43,6 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - **SCLK**: SPI interface clock signal. Typically 1MHz. 3.3V. See the ARTIC R2 datasheet for the permitted clock speeds.
 - **CS**: SPI interface Chip Select. 3.3V. Active low.
 - **GND**: Power ground / 0V.
-
 - **-8dB**: Pull up to 3.3V to reduce the transmit power by 8dB. The amplifier will use full power if this pin is pulled low or left open.
 - **BOOT**: Connected to the ARTIC BOOT pin. Pulled up to 3.3V via a 100k resistor. When high, the ARTIC boots from the on-board flash memory. Pull low if the ARTIC firmware will be downloaded by the MCU via SPI.
 - **INT1**: Connected to the ARTIC INT1 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_VALID_MESSAGE.
@@ -60,10 +59,10 @@ Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout w
 
 ![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-04.jpg)
 
-- **PWR**: ARTIC R2 power
 - **RF**: RF amplifier power
-- **TX**: ARTIC is transmitting
 - **RX**: ARTIC is receiving
+- **TX**: ARTIC is transmitting
+- **PWR**: ARTIC R2 power
 
 The LEDs can be disabled to save power by cutting the jumper links on the bottom of the PCB.
 
