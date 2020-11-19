@@ -29,7 +29,7 @@ The ARTIC-R2 can transmit signals in frequency bands around 400MHz and receive s
 - Dual supply, 1.8V and 3.3V
 - Integrated PA (0dBm) to combine with external PA
 
-An RFPA0133 programmable gain power amplifier boosts the 0dBm (1mW) output from the ARTIC by approximately 26.5dB, producing a transmit power level of approximately 450mW. The transmit power can be reduced by 8dB by applying 3.3V to the **-8dB** breakout pin, reducing the transmit current draw by approximately 80mA.
+An RFPA0133 programmable gain power amplifier boosts the 0dBm (1mW) output from the ARTIC by _approximately_ 26.5dB, producing a transmit power level of _approximately_ 450mW. The transmit power can be reduced by _approximately_ 8dB by applying 3.3V to the **-8dB** breakout pin.
 
 The ARGOS satellite system is restricted to specific programs and applications. Please check that your project meets these requirements before buying hardware. CLS and the Woods Hole Group will be able to advise if your project meets the requirements.
 - _**"To meet system use requirements, all programs using Argos have to be related in some way or other to environmental protection, awareness or study, or to protecting human life."**_
