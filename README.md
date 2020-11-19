@@ -6,8 +6,7 @@ The [ARGOS ARTIC R2 satellite communication chipset](https://www.cls-telemetry.c
 
 [![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-02.jpg)](https://www.sparkfun.com/products/17236)
 
-![Dimensions](./img/Dimensions.png)
-_Dimensions are in inches_
+_Dimensions are in inches_  ![Dimensions](./img/Dimensions.png)
 
 The ARTIC-R2 is an integrated low power small size ARGOS 2/3/4 single chip radio. ARTIC-R2 implements a message based wireless interface. For satellite uplink communication, ARTIC-R2 will encode, modulate and transmit provided user messages. For downlink communication, ARTIC-R2 will lock to the downstream, demodulate and decode it and extract the satellite messages.
 
@@ -39,24 +38,27 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 
 ![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-03.jpg)
 
-- **VBATT**: Power input from (e.g.) a LiPo battery. Typically 3.6V - 4.2V.
-- **VUSB**: Power input from USB. Typically 5V. 6.5V maximum.
-- **GND**: Power ground / 0V.
-- **RF EN**: Pulled low via a 100k resistor. Pull up to 3.3V to enable power for the RF amplifier.
-- **PWR EN**: Pulled low via a 100k resistor. Pull up to 3.3V to enable power for the ARTIC R2.
-- **RESETB**: Connected to the ARTIC reset pin. Pulled up to 3.3V via a 100k resistor. Pull low to reset the ARTIC.
-- **INT2**: Connected to the ARTIC INT2 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_BUFFER_OVERFLOW.
-- **INT1**: Connected to the ARTIC INT1 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_VALID_MESSAGE.
-- **BOOT**: Connected to the ARTIC BOOT pin. Pulled up to 3.3V via a 100k resistor. When high, the ARTIC boots from the on-board flash memory. Pull low if the ARTIC firmware will be downloaded by the MCU via SPI.
-- **-8dB**: Pull up to 3.3V to reduce the transmit power by 8dB. The amplifier will use full power if this pin is pulled low or left open.
 - **CIPO**: SPI interface: Controller In Peripheral Out. 3.3V.
 - **COPI**: SPI interface: Controller Out Peripheral In. 3.3V.
 - **SCLK**: SPI interface clock signal. Typically 1MHz. 3.3V. See the ARTIC R2 datasheet for the permitted clock speeds.
 - **CS**: SPI interface Chip Select. 3.3V. Active low.
+- **GND**: Power ground / 0V.
+
+- **-8dB**: Pull up to 3.3V to reduce the transmit power by 8dB. The amplifier will use full power if this pin is pulled low or left open.
+- **BOOT**: Connected to the ARTIC BOOT pin. Pulled up to 3.3V via a 100k resistor. When high, the ARTIC boots from the on-board flash memory. Pull low if the ARTIC firmware will be downloaded by the MCU via SPI.
+- **INT1**: Connected to the ARTIC INT1 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_VALID_MESSAGE.
+- **INT2**: Connected to the ARTIC INT2 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_BUFFER_OVERFLOW.
+- **RESETB**: Connected to the ARTIC reset pin. Pulled up to 3.3V via a 100k resistor. Pull low to reset the ARTIC.
+- **PWR EN**: Pulled low via a 100k resistor. Pull up to 3.3V to enable power for the ARTIC R2.
+- **RF EN**: Pulled low via a 100k resistor. Pull up to 3.3V to enable power for the RF amplifier.
+- **VUSB**: Power input from (e.g.) USB. **Typically 5V. 6.5V maximum.**
+- **VBATT**: Power input from (e.g.) a LiPo battery. **Typically 3.6V - 4.2V. 6.5V maximum.**
 
 Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout will preferentially draw power from USB if connected.
 
 ## LEDs
+
+![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-04.jpg)
 
 - **PWR**: ARTIC R2 power
 - **RF**: RF amplifier power
