@@ -43,7 +43,7 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - **SCLK**: SPI interface clock signal. Typically 1MHz. 3.3V. See the ARTIC R2 datasheet for the permitted clock speeds.
 - **CS**: SPI interface Chip Select. 3.3V. Active low.
 - **GND**: Power ground / 0V.
-- **-8dB**: Pull up to 3.3V to reduce the transmit power by 8dB. The amplifier will use full power if this pin is pulled low or left open.
+- **-8dB**: Pull up to 3.3V to reduce the transmit power by _approximately_ 8dB. The amplifier will use full power if this pin is pulled low or left open.
 - **BOOT**: Connected to the ARTIC BOOT pin. Pulled up to 3.3V via a 100k resistor. When high, the ARTIC boots from the on-board flash memory. Pull low if the ARTIC firmware will be downloaded by the MCU via SPI.
 - **INT1**: Connected to the ARTIC INT1 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_VALID_MESSAGE.
 - **INT2**: Connected to the ARTIC INT2 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_BUFFER_OVERFLOW.
@@ -54,6 +54,8 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - **VBATT**: Power input from (e.g.) a LiPo battery. **Typically 3.6V - 4.2V. 6.5V maximum.**
 
 Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout will preferentially draw power from USB if connected.
+
+The full schematic for the ARTIC R2 Breakout is available [here](./Hardware/Schematic.pdf).
 
 ## LEDs
 
@@ -94,6 +96,55 @@ In the Arduino IDE, please make sure you select the correct board. The examples 
 from the _SparkFun Apollo3_ boards package.
 
 You can install the library using the IDE by opening _**Tools\Manage Libraries**_ and then searching for _SparkFun ARGOS ARTIC R2_.
+
+### Checklist
+
+- [Install the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
+- [Add the SparkFun Boards to the _Preferences\Additional Board Manager URLs_ and install the SparkFun Apollo3 board package](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino#arduino-installation)
+- Close the IDE
+- [Install the CH340 COM port drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers)
+- Reopen the IDE
+- Click on _Tools\Board_ and select _SparkFun Apollo3\SparkFun Artemis Thing Plus_
+
+![Boards](./img/HookUp1.JPG)
+
+- Click on _Tools\Manage Libraries..._ to open the library manager
+- In the search box, type _SparkFun ARGOS ARTIC R2_
+- Click the _Install_ button to install the ARGOS ARTIC R2 library
+
+![ARTIC R2 Library](./img/HookUp2.JPG)
+
+- Click on _File\Examples_. Hover over _SparkFun ARGOS ARTIC R2 Library_ and click on _Example15_TransmitARGOS4VLDLongExample_
+
+![ARTIC R2 Library](./img/HookUp3.JPG)
+
+- Attach an antenna to the ARTIC R2 Breakout
+- Mount the ARTIC R2 Breakout onto the SparkFun Thing Plus Artemis
+- Attach the Thing Plus to your computer using a USB-C cable
+- Click on _Tools\Port_ and select the COM port for the Artemis
+
+![ARTIC R2 Library](./img/HookUp4.JPG)
+
+- Click on the Upload button to upload the example onto the Artemis
+
+![ARTIC R2 Library](./img/HookUp5.JPG)
+
+- Open _Tools\Serial Monitor_ to see the serial messages from the Artemis
+- Check that the baud rate is set to **115200**
+
+![ARTIC R2 Library](./img/HookUp6.JPG)
+
+- The two red LEDs on the ARTIC R2 Breakout will light up when the code is running
+
+### Resetting the Artemis
+
+When powering the Artemis via USB-C, it _may_ not reset correctly. There are two easy ways to reset it:
+
+- If you have the Arduino IDE open, opening the _Serial Monitor_ will reset the Artemis
+  - If the _Serial Monitor_ is already open, clicking **115200** in the Baud rate drop-down menu will also reset the Artemis
+- Press the **RST** button next to the SparkFun flame logo, near the USB-C connector
+
+The two red LEDs on the ARTIC R2 Breakout will light up to indicate that the Artemis has been reset and that the code is running
 
 ## Repository Contents
 
