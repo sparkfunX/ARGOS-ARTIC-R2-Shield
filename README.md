@@ -138,7 +138,7 @@ You can install the library using the IDE by opening _**Tools\Manage Libraries**
 
 ### Resetting the Artemis
 
-When powering the Artemis via USB-C, it _may_ not reset correctly. There are two easy ways to reset it:
+When powering the Artemis via USB-C or from a LiPo battery, it _may_ not reset correctly when the power is connected. There are two easy ways to reset it:
 
 - If you have the Arduino IDE open, opening the _Serial Monitor_ will reset the Artemis
   - If the _Serial Monitor_ is already open, clicking **115200** in the Baud rate drop-down menu will also reset the Artemis
