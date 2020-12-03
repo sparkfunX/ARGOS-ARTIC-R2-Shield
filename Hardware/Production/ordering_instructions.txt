@@ -1,4 +1,3 @@
-JLCPCB JLC7628 4-Layer 0.8mm Impedance Control
 panel size, 107x116mm
 PCB thickness, 0.8mm
 number of layers, 4
