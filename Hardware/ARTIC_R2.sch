@@ -10859,14 +10859,14 @@ Iq: 65uA</text>
 <wire x1="261.62" y1="205.74" x2="261.62" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="378.46" y1="205.74" x2="378.46" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="99.06" y1="68.58" x2="0" y2="68.58" width="0.2032" layer="97" style="longdash"/>
-<text x="6.604" y="259.842" size="5.08" layer="97">Power Switching &amp; Voltage
+<text x="6.604" y="259.842" size="5.08" layer="94">Power Switching &amp; Voltage
 Regulation</text>
-<text x="157.48" y="213.36" size="5.08" layer="97">Flash Memory</text>
-<text x="299.72" y="213.36" size="5.08" layer="97">Antenna Switch</text>
-<text x="391.16" y="213.36" size="5.08" layer="97">Antenna</text>
-<text x="167.64" y="30.48" size="5.08" layer="97">ARTIC R2</text>
-<text x="327.66" y="81.28" size="5.08" layer="97">RF Amp</text>
-<text x="43.18" y="5.08" size="5.08" layer="97">Pins</text>
+<text x="157.48" y="213.36" size="5.08" layer="94">Flash Memory</text>
+<text x="299.72" y="213.36" size="5.08" layer="94">Antenna Switch</text>
+<text x="391.16" y="213.36" size="5.08" layer="94">Antenna</text>
+<text x="167.64" y="30.48" size="5.08" layer="94">ARTIC R2</text>
+<text x="327.66" y="81.28" size="5.08" layer="94">RF Amp</text>
+<text x="43.18" y="5.08" size="5.08" layer="94">Pins</text>
 <text x="258.572" y="82.042" size="1.27" layer="97">50Ω</text>
 <text x="285.75" y="76.962" size="1.27" layer="97">50Ω</text>
 <text x="256.54" y="107.188" size="1.27" layer="97">50Ω</text>
@@ -10880,7 +10880,7 @@ Regulation</text>
 <text x="354.838" y="249.682" size="1.778" layer="97">50Ω</text>
 <text x="401.574" y="249.428" size="1.27" layer="97">50Ω</text>
 <wire x1="147.32" y1="205.74" x2="147.32" y2="279.4" width="0.2032" layer="97" style="longdash"/>
-<text x="117.602" y="213.614" size="5.08" layer="97">LEDs</text>
+<text x="117.602" y="213.614" size="5.08" layer="94">LEDs</text>
 <text x="330.962" y="74.168" size="1.778" layer="97" font="vector" align="top-left">RF Track Impedance: Coplanar Waveguide with Ground Calculations
 https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm
 ----------------
@@ -10897,7 +10897,7 @@ Prepreg (0.2) + layer 2 (0.0175) + core thickness (0.265) = 0.4825mm
 20 mil track with 4 mil gap = 49.9 Ohms
 
 </text>
-<text x="20.32" y="78.74" size="5.08" layer="97">Gain Opto-Isolation</text>
+<text x="20.32" y="78.74" size="5.08" layer="94">Gain Opto-Isolation</text>
 <text x="207.772" y="214.122" size="1.778" layer="97">The ARTIC must be held in
 reset while programming flash</text>
 <wire x1="99.06" y1="124.46" x2="0" y2="124.46" width="0.2032" layer="97" style="longdash"/>
