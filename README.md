@@ -29,7 +29,7 @@ The ARTIC-R2 can transmit signals in frequency bands around 400MHz and receive s
 - Dual supply, 1.8V and 3.3V
 - Integrated PA (0dBm) to combine with external PA
 
-An RFPA0133 programmable gain power amplifier boosts the 0dBm (1mW) output from the ARTIC by _approximately_ 26.5dB, producing a transmit power level of _approximately_ 450mW. The transmit power can be reduced by _approximately_ 8dB by applying 3.3V to the **-8dB** breakout pin.
+An RFPA0133 programmable gain power amplifier boosts the 0dBm (1mW) output from the ARTIC by _approximately_ 26.5dB, producing a transmit power level of _approximately_ 450mW. The transmit power can be adjusted via the **G8** breakout pin.
 
 The ARGOS satellite system is restricted to specific programs and applications. Please check that your project meets these requirements before buying hardware. CLS and the Woods Hole Group will be able to advise if your project meets the requirements.
 - _**"To meet system use requirements, all programs using Argos have to be related in some way or other to environmental protection, awareness or study, or to protecting human life."**_
@@ -43,7 +43,7 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - **SCLK**: SPI interface clock signal. Typically 1MHz. 3.3V. See the ARTIC R2 datasheet for the permitted clock speeds.
 - **CS**: SPI interface Chip Select. 3.3V. Active low.
 - **GND**: Power ground / 0V.
-- **-8dB**: Pull up to 3.3V to reduce the transmit power by _approximately_ 8dB. The amplifier will use full power if this pin is pulled low or left open.
+- **G8**: Pull up to 3.3V to set the RFPA0133 transmit power to maximum. The transmit power will be reduced by _approximately_ 5dB if this pin is pulled low or left open.
 - **BOOT**: Connected to the ARTIC BOOT pin. Pulled up to 3.3V via a 100k resistor. When high, the ARTIC boots from the on-board flash memory. Pull low if the ARTIC firmware will be downloaded by the MCU via SPI.
 - **INT1**: Connected to the ARTIC INT1 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_VALID_MESSAGE.
 - **INT2**: Connected to the ARTIC INT2 pin. Will be pulled up to 3.3V by the ARTIC to indicate (e.g.) an RX_BUFFER_OVERFLOW.
