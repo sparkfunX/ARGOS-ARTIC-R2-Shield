@@ -7957,7 +7957,7 @@ Used in manufacturing several products at SparkFun.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15584" constant="no"/>
 <attribute name="VALUE" value="470" constant="no"/>
 </technology>
 </technologies>
@@ -7978,7 +7978,7 @@ Used in manufacturing several products at SparkFun.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15585" constant="no"/>
 <attribute name="VALUE" value="47" constant="no"/>
 </technology>
 </technologies>
@@ -10603,7 +10603,7 @@ from 1.2 V to 4.5 V in 25-mV steps.&lt;/p&gt;</description>
 <attribute name="MANU_PART" value="LP5907MFX-3.0/NOPB" constant="no"/>
 <attribute name="MOUSER_PART" value="595-LP5907MFX-3.0NPB" constant="no"/>
 <attribute name="PACKAGE" value="SOT-23(5)" constant="no"/>
-<attribute name="PROD_ID" value=""/>
+<attribute name="PROD_ID" value="VREG-15586"/>
 <attribute name="VALUE" value="3.0V"/>
 </technology>
 </technologies>

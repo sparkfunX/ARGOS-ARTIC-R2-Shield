@@ -277,7 +277,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15584" constant="no"/>
 <attribute name="VALUE" value="470" constant="no"/>
 </technology>
 </technologies>
@@ -298,7 +298,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-15585" constant="no"/>
 <attribute name="VALUE" value="47" constant="no"/>
 </technology>
 </technologies>
