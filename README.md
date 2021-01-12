@@ -118,7 +118,7 @@ You can install the library using the IDE by opening _**Tools\Manage Libraries**
 
 ![ARTIC R2 Library](./img/HookUp3.JPG)
 
-- Attach an antenna to the ARTIC R2 Breakout
+- **Attach an antenna to the ARTIC R2 Breakout. (Never attempt to transmit with no antenna attached!)**
 - Mount the ARTIC R2 Breakout onto the SparkFun Thing Plus Artemis
 - Attach the Thing Plus to your computer using a USB-C cable
 - Click on _Tools\Port_ and select the COM port for the Artemis
