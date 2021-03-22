@@ -117,11 +117,11 @@ You can install the library using the IDE by opening _**Tools\Manage Libraries**
 
 ![ARTIC R2 Library](./img/HookUp2.JPG)
 
-- Click on _File\Examples_. Hover over _SparkFun ARGOS ARTIC R2 Library_ and click on e.g. _Example15_TransmitARGOS4VLDLongExample_
+- Click on _File\Examples_. Hover over _SparkFun ARGOS ARTIC R2 Library_ and select one of the examples
 
 ![ARTIC R2 Library](./img/HookUp3.JPG)
 
-- **Attach an antenna to the SparkX ARGOS Satellite Transceiver Shield. (Never attempt to transmit with no antenna attached!)**
+- **Attach an antenna to the SparkX ARGOS Satellite Transceiver Shield. (Never attempt to transmit without an antenna attached!)**
 - Mount the Satellite Transceiver Shield onto the SparkFun Thing Plus Artemis
 - Attach the Thing Plus to your computer using a USB-C cable
 - Click on _Tools\Port_ and select the COM port for the Artemis
