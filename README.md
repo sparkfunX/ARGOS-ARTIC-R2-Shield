@@ -155,11 +155,11 @@ The two red LEDs on the ARTIC R2 Breakout will light up to indicate that the Art
 - Transmit (G8 pin high): 220mA
 - Transmit (G8 pin low): 170mA
 
-### Transmit current draw for ARGOS 4 ZE with the G8 pin high
+### Transmit current draw for ARGOS 3 ZE with the G8 pin high
 
 ![Transmit current for ARGOS3ZE: G8 high](./img/TX_Current_ARGOS3ZE.png)
 
-### Transmit current draw for ARGOS 4 ZE with the G8 pin low
+### Transmit current draw for ARGOS 3 ZE with the G8 pin low
 
 ![Transmit current for ARGOS3ZE: G8 low](./img/TX_Current_ARGOS3ZE_G8Low.png)
 
