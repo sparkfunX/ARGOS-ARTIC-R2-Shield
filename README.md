@@ -148,7 +148,7 @@ The two red LEDs on the ARTIC R2 Breakout will light up to indicate that the Art
 
 ## Repository Contents
 
-- [**/Documents**](./Documents) - Datasheets etc.
+- [**/Documents**](./Documents) - Datasheets, test certificates etc.
 - [**/Hardware**](./Hardware) - Eagle PCB, SCH and LBR design files
 - [**LICENSE.md**](./LICENSE,md) - contains the licence information
 
