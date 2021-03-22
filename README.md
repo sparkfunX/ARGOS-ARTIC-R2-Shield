@@ -54,6 +54,7 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - **VBATT**: Power input from (e.g.) a LiPo battery. **Typically 3.6V - 4.2V. 6.5V maximum.**
 
 Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout will preferentially draw power from USB if connected. On-board 3.3V regulators regulate USB or battery power down to 3.3V for the ARTIC and RF amplifier.
+See below for the typical VUSB current draw.
 
 The full schematic for the ARTIC R2 Breakout is available [here](./Hardware/Schematic.pdf).
 
@@ -145,6 +146,22 @@ When powering the Artemis via USB-C or from a LiPo battery, it _may_ not reset c
 - Press the **RST** button next to the SparkFun flame logo, near the USB-C connector
 
 The two red LEDs on the ARTIC R2 Breakout will light up to indicate that the Artemis has been reset and that the code is running
+
+## Typical VUSB Current Draw
+
+- Sleep: 51µA
+- Idle: 7.2mA
+- Receive: 32.8mA
+- Transmit (G8 pin high): 220mA
+- Transmit (G8 pin low): 170mA
+
+### Transmit current draw for ARGOS 4 ZE with the G8 pin high
+
+![Transmit current for ARGOS3ZE: G8 high](./img/TX_Current_ARGOS3ZE.png)
+
+### Transmit current draw for ARGOS 4 ZE with the G8 pin low
+
+![Transmit current for ARGOS3ZE: G8 low](./img/TX_Current_ARGOS3ZE_G8Low.png)
 
 ## Repository Contents
 
