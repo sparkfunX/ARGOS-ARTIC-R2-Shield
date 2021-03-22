@@ -53,7 +53,7 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - **VUSB**: Power input from (e.g.) USB. **Typically 5V. 6.5V maximum.**
 - **VBATT**: Power input from (e.g.) a LiPo battery. **Typically 3.6V - 4.2V. 6.5V maximum.**
 
-Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout will preferentially draw power from USB if connected.
+Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout will preferentially draw power from USB if connected. On-board 3.3V regulators regulate USB or battery power down to 3.3V for the ARTIC and RF amplifier.
 
 The full schematic for the ARTIC R2 Breakout is available [here](./Hardware/Schematic.pdf).
 
