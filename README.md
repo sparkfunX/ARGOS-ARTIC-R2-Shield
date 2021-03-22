@@ -36,7 +36,7 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 
 ## Breakout Pins
 
-![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-03.jpg)
+![SparkX ARGOS Satellite Transceiver Shield](./img/17236-Artic_R2_Breakout-03.jpg)
 
 - **CIPO**: SPI interface: Controller In Peripheral Out. 3.3V.
 - **COPI**: SPI interface: Controller Out Peripheral In. 3.3V.
@@ -53,14 +53,14 @@ The ARGOS satellite system is restricted to specific programs and applications. 
 - **VUSB**: Power input from (e.g.) USB. **Typically 5V. 6.5V maximum.**
 - **VBATT**: Power input from (e.g.) a LiPo battery. **Typically 3.6V - 4.2V. 6.5V maximum.**
 
-Power can be provided via the VBATT pin or the VUSB pin, or both. The breakout will preferentially draw power from USB if connected. On-board 3.3V regulators regulate USB or battery power down to 3.3V for the ARTIC and RF amplifier.
+Power can be provided via the VBATT pin or the VUSB pin, or both. The shield will preferentially draw power from USB if connected. On-board 3.3V regulators regulate USB or battery power down to 3.3V for the ARTIC and RF amplifier.
 See below for the typical VUSB current draw.
 
-The full schematic for the ARTIC R2 Breakout is available [here](./Hardware/Schematic.pdf).
+The full schematic for the Satellite Transceiver Shield is available [here](./Hardware/Schematic.pdf).
 
 ## LEDs
 
-![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-04.jpg)
+![SparkX ARGOS Satellite Transceiver Shield](./img/17236-Artic_R2_Breakout-04.jpg)
 
 - **RF**: RF amplifier power
 - **RX**: ARTIC is receiving
@@ -73,19 +73,21 @@ The LEDs can be disabled to save power by cutting the jumper links on the bottom
 
 The antenna is connected via a uFL connector. A 400MHz quarter wave wire antenna is all that is required for most applications.
 
+**Ensure an antenna is always attached to the transceiver shield. (Never attempt to transmit with no antenna attached!)**
+
 ## Arduino Library
 
 The [SparkFun ARGOS ARTIC R2 Arduino Library](https://github.com/sparkfun/SparkFun_ARGOS_ARTIC_R2_Arduino_Library) contains a full set of examples
-to get you up and running with the ARTIC R2 Breakout.
+to get you up and running with the SparkX ARGOS Satellite Transceiver Shield.
 
 ## Hook-Up Guide
 
-The ARTIC R2 Breakout is designed to interface directly to a SparkFun Thing Plus board. The
+The SparkX ARGOS Satellite Transceiver Shield is designed to interface directly to a SparkFun Thing Plus board. The
 [examples in the Arduino library](https://github.com/sparkfun/SparkFun_ARGOS_ARTIC_R2_Arduino_Library/tree/master/examples) are written for the
 [Thing Plus - Artemis](https://www.sparkfun.com/products/15574) but can be adapted to any board simply by changing the declared pin numbers.
 
-You can mount the ARTIC R2 Breakout on a Thing Plus board using [Break Away Headers - Straight](https://www.sparkfun.com/products/116) on the ARTIC
-and [Female Headers](https://www.sparkfun.com/products/115) on the Thing Plus. That way you can remove the ARTIC R2 Breakout if you want to and perhaps
+You can mount the Satellite Transceiver Shield on a Thing Plus board using [Break Away Headers - Straight](https://www.sparkfun.com/products/116) on the ARTIC
+and [Female Headers](https://www.sparkfun.com/products/115) on the Thing Plus. That way you can remove the Transceiver Shield if you want to and perhaps
 mount the board on a [Breadboard](https://www.sparkfun.com/products/12002) instead.
 
 If you are new to Arduino and the IDE, these guides will get you up and running:
@@ -115,12 +117,12 @@ You can install the library using the IDE by opening _**Tools\Manage Libraries**
 
 ![ARTIC R2 Library](./img/HookUp2.JPG)
 
-- Click on _File\Examples_. Hover over _SparkFun ARGOS ARTIC R2 Library_ and click on _Example15_TransmitARGOS4VLDLongExample_
+- Click on _File\Examples_. Hover over _SparkFun ARGOS ARTIC R2 Library_ and click on e.g. _Example15_TransmitARGOS4VLDLongExample_
 
 ![ARTIC R2 Library](./img/HookUp3.JPG)
 
-- **Attach an antenna to the ARTIC R2 Breakout. (Never attempt to transmit with no antenna attached!)**
-- Mount the ARTIC R2 Breakout onto the SparkFun Thing Plus Artemis
+- **Attach an antenna to the SparkX ARGOS Satellite Transceiver Shield. (Never attempt to transmit with no antenna attached!)**
+- Mount the Satellite Transceiver Shield onto the SparkFun Thing Plus Artemis
 - Attach the Thing Plus to your computer using a USB-C cable
 - Click on _Tools\Port_ and select the COM port for the Artemis
 
@@ -135,7 +137,7 @@ You can install the library using the IDE by opening _**Tools\Manage Libraries**
 
 ![ARTIC R2 Library](./img/HookUp6.JPG)
 
-- The two red LEDs on the ARTIC R2 Breakout will light up when the code is running
+- The two red LEDs on the Satellite Transceiver Shield will light up when the code is running
 
 ### Resetting the Artemis
 
@@ -145,7 +147,7 @@ When powering the Artemis via USB-C or from a LiPo battery, it _may_ not reset c
   - If the _Serial Monitor_ is already open, clicking **115200** in the Baud rate drop-down menu will also reset the Artemis
 - Press the **RST** button next to the SparkFun flame logo, near the USB-C connector
 
-The two red LEDs on the ARTIC R2 Breakout will light up to indicate that the Artemis has been reset and that the code is running
+The two red LEDs on the Satellite Transceiver Shield will light up to indicate that the Artemis has been reset and that the code is running
 
 ## Typical VUSB Current Draw
 
@@ -171,4 +173,4 @@ The two red LEDs on the ARTIC R2 Breakout will light up to indicate that the Art
 
 ## Thanks
 
-The ARTIC R2 breakout is a remix of the reference design kindly provided by the Arribada Initiative and Icoteq Ltd.
+The SparkX ARGOS Satellite Transceiver Shield is a remix of the reference design kindly provided by the Arribada Initiative and Icoteq Ltd.
