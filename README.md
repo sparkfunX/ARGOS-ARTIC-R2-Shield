@@ -1,10 +1,10 @@
-# ARGOS ARTIC R2 Breakout
+# ARGOS Satellite Transceiver Shield
 
 The [ARGOS ARTIC R2 satellite communication chipset](https://www.cls-telemetry.com/argos-solutions/argos-products/modems/artic-chipset/#1534863095666-398318f3-c367) in Thing Plus format.
 
-[![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-01.jpg)](https://www.sparkfun.com/products/17236)
+[![SparkX ARGOS Satellite Transceiver Shield](./img/17236-Artic_R2_Breakout-01.jpg)](https://www.sparkfun.com/products/17236)
 
-[![SparkX ARTIC R2 Breakout](./img/17236-Artic_R2_Breakout-02.jpg)](https://www.sparkfun.com/products/17236)
+[![SparkX ARGOS Satellite Transceiver Shield](./img/17236-Artic_R2_Breakout-02.jpg)](https://www.sparkfun.com/products/17236)
 
 _Dimensions are in inches_  ![Dimensions](./img/Dimensions.png)
 
@@ -31,7 +31,7 @@ The ARTIC-R2 can transmit signals in frequency bands around 400MHz and receive s
 
 An RFPA0133 programmable gain power amplifier boosts the 0dBm (1mW) output from the ARTIC by _approximately_ 26.5dB, producing a transmit power level of _approximately_ 450mW. The transmit power can be adjusted via the **G8** breakout pin.
 
-The ARGOS satellite system is restricted to specific programs and applications. Please check that your project meets these requirements before buying hardware. CLS and the Woods Hole Group will be able to advise if your project meets the requirements.
+The ARGOS satellite system is restricted to specific programs and applications. Please check that your project meets these requirements before buying hardware. [CLS (France)](https://www.cls-telemetry.com/argos-solutions/) and the [Woods Hole Group (America)](https://www.clsamerica.com/science-with-argos) will be able to advise if your project meets the requirements.
 - _**"To meet system use requirements, all programs using Argos have to be related in some way or other to environmental protection, awareness or study, or to protecting human life."**_
 
 ## Breakout Pins
