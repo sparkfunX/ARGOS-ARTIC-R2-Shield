@@ -2,9 +2,9 @@
 
 The [ARGOS ARTIC R2 satellite communication chipset](https://www.cls-telemetry.com/argos-solutions/argos-products/modems/artic-chipset/#1534863095666-398318f3-c367) in Thing Plus format.
 
-[![SparkX ARGOS Satellite Transceiver Shield](./img/17236-Artic_R2_Breakout-01.jpg)](https://www.sparkfun.com/products/17236)
+[![SparkX ARGOS Satellite Transceiver Shield](https://cdn.sparkfun.com//assets/parts/1/6/2/1/7/17236-Artic_R2_Breakout-01a.jpg)](https://www.sparkfun.com/products/17236)
 
-[![SparkX ARGOS Satellite Transceiver Shield](./img/17236-Artic_R2_Breakout-02.jpg)](https://www.sparkfun.com/products/17236)
+[![SparkX ARGOS Satellite Transceiver Shield](https://cdn.sparkfun.com//assets/parts/1/6/2/1/7/17236-Artic_R2_Breakout-02a.jpg)](https://www.sparkfun.com/products/17236)
 
 _Dimensions are in inches_  ![Dimensions](./img/Dimensions.png)
 
